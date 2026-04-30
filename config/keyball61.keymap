@@ -33,7 +33,7 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESC         &kp N1     &kp N2        &kp N3        &kp N4  &kp N5                                     &kp N6       &kp N7  &kp N8     &kp N9   &kp N0         &kp BACKSLASH
+&mo 7           &kp N1     &kp N2        &kp N3        &kp N4  &kp N5                                     &kp N6       &kp N7  &kp N8     &kp N9   &kp N0         &kp BACKSLASH
 &kp TAB         &kp Q      &kp W         &kp E         &kp R   &kp T                                      &kp Y        &kp U   &kp I      &kp O    &kp P          &kp BACKSPACE
 &kp CAPS        &kp A      &kp S         &kp D         &kp F   &kp G                                      &kp H        &kp J   &kp K      &kp L    &kp SEMI       &kp SQT
 &kp LEFT_SHIFT  &kp Z      &kp X         &kp C         &kp V   &kp B        &kp PAGE_DOWN  &kp PAGE_UP    &kp N        &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
@@ -105,6 +105,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+            >;
+        };
+
+        magnet_layer {
+            bindings = <
+&trans  &kp ESC  &trans  &trans  &trans  &trans                  &trans         &kp LA(LS(E))           &kp LA(LC(T))  &trans                   &kp LA(LC(T))  &trans
+&trans  &trans   &trans  &trans  &trans  &trans                  &trans         &kp LA(LC(D))           &kp F          &kp LA(LC(G))            &kp LA(LC(G))  &trans
+&trans  &trans   &trans  &trans  &trans  &trans                  &trans         &kp LA(LC(J))           &kp LA(LC(I))  &kp LA(LC(K))            &kp LA(LC(B))  &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LC(U))  &kp LA(LC(LEFT_ARROW))  &kp LA(LC(Q))  &kp LA(LC(RIGHT_ARROW))  &kp LA(LC(F))  &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                         &kp LA(LC(D))  &trans
             >;
         };
     };

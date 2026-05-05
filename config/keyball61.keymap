@@ -100,11 +100,11 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                              &trans     &trans
             >;
         };
 
